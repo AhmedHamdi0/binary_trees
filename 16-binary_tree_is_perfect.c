@@ -2,6 +2,7 @@
 
 size_t __binary_tree_height(const binary_tree_t *tree);
 size_t _binary_tree_size(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
 
 /**
  * binary_tree_is_perfect - Checks if a binary tree is perfect
